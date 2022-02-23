@@ -29,6 +29,7 @@ body{
 
 .bgNumber {
     background-color: blue;
+    color:white;
 }
 
 .bgBuzz {
@@ -41,5 +42,5 @@ body{
 
 .bgFizzBuzz {
 
-    background-color: darkorange;
+    background-color: gold;
 }

@@ -63,12 +63,7 @@ for (let number = 1; number <= 100; number++) {
     }
 }
 
-
-// 1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
-
-// 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
-// Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
+// -----------------------------------------------------------------------------------------
 
 
-
-alert(" finito (sto inserendo scemnze) grazie mauro ")
+alert( "grazie mauro " )
