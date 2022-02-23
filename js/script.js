@@ -29,17 +29,17 @@
 // MILESTONE 2
 // Dato un container nel DOM, appendi un elemento html con il numero o la stringa corretta.
 
-for (let number = 1; number <= 100 ; number++) {
-    if (number % 3 === 0 && number % 5 === 0) {
-        console.log("FizzBuzz")
-    } else if (number % 5 === 0){
-        console.log("buzz")
-    } else if (number % 3 === 0 ) {
-        console.log("fizz")
-    }else {
-        console.log (number)
-    }
-}
+// for (let number = 1; number <= 100 ; number++) {
+//     if (number % 3 === 0 && number % 5 === 0) {
+//         document.writeln("FizzBuzz")
+//     } else if (number % 5 === 0){
+//         document.writeln("buzz")
+//     } else if (number % 3 === 0 ) {
+//         document.writeln("fizz")
+//     }else {
+//         document.writeln (number)
+//     }
+// }
 
 
 // MILESTONE 3
@@ -48,6 +48,20 @@ for (let number = 1; number <= 100 ; number++) {
 // Come faccio a sapere se un numero è divisibile per un altro? Abbiamo visto qualcosa di particolare che possiamo usare? Come creare nuovi elementi html e appenderli al container?
 // Consigli del giorno:
 
+for (let number = 1; number <= 100 ; number++) {
+    if (number % 3 === 0 && number % 5 === 0) {
+        document.writeln("FizzBuzz")
+    } else if (number % 5 === 0){
+        document.writeln("buzz")
+    } else if (number % 3 === 0 ) {
+        document.writeln("fizz")
+    }else {
+        document.writeln (number)
+    }
+}
+
+
+
 // 1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 
 // 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
@@ -55,4 +69,4 @@ for (let number = 1; number <= 100 ; number++) {
 
 
 
-alert(" non ho finito (sto passando al milestone 2)")
+alert(" non ho finito (sto passando al milestone 3)")

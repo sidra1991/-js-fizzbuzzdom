@@ -1,5 +1,12 @@
  /* settare valori riquadro principale + 4 stili - base -multipli di 3- multipli di 5- multipli in comune di 3 e 5 */
 
+h1 {
+    text-align: center;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
- 
