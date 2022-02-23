@@ -1,4 +1,6 @@
 // Consegna:
+
+// ----------------------------------------------------------------------------------------
 // Scrivi un programma che stampi in console i numeri da 1 a 100.
 
 // for (let nunberBase = 1; nunberBase <= 100; nunberBase++) {
@@ -10,20 +12,35 @@
 // Per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz
 
+// for (let number = 1; number <= 100 ; number++) {
+//     if (number % 3 === 0 && number % 5 === 0) {
+//         console.log("FizzBuzz")
+//     } else if (number % 5 === 0){
+//         console.log("buzz")
+//     } else if (number % 3 === 0 ) {
+//         console.log("fizz")
+//     }else {
+//         console.log (number)
+//     }
+// }
+// --------------------------------------------------------------------------------------
+
+
+// MILESTONE 2
+// Dato un container nel DOM, appendi un elemento html con il numero o la stringa corretta.
+
 for (let number = 1; number <= 100 ; number++) {
-    if (number % 3 === 0 && !number % 5 === 0) {
-        console.log("fizz")
-    } else if  (number % 5 === 0){
-        console.log("buzz")
-    } else if (number % 3 === 0) {
+    if (number % 3 === 0 && number % 5 === 0) {
         console.log("FizzBuzz")
+    } else if (number % 5 === 0){
+        console.log("buzz")
+    } else if (number % 3 === 0 ) {
+        console.log("fizz")
     }else {
         console.log (number)
     }
 }
 
-// MILESTONE 2
-// Dato un container nel DOM, appendi un elemento html con il numero o la stringa corretta.
 
 // MILESTONE 3
 // Applica uno stile differente a seconda del valore dell'indice per i multipli di 3, per i multipli di 5 e per i valori che sono sia multipli di 3 che di 5.
@@ -38,4 +55,4 @@ for (let number = 1; number <= 100 ; number++) {
 
 
 
-alert(" non ho finito (ho un piccolo intoppo con i numeri divisi da 5 e 3 contemporaneamente)")
+alert(" non ho finito (sto passando al milestone 2)")
