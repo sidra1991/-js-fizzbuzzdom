@@ -2,11 +2,44 @@
 
 h1 {
     text-align: center;
+    color: white;
+}
+
+body{
+    background-color: cadetblue;    
 }
 
 .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
+.square {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+.bgNumber {
+    background-color: blue;
+}
+
+.bgBuzz {
+    background-color: coral;
+}
+
+.bgFizz{
+    background-color: crimson;
+}
+
+.bgFizzBuzz {
+
+    background-color: darkorange;
+}
